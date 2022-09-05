@@ -1,20 +1,32 @@
-# Furniture App - Responsive Flutter UI
+# Face_recognition_based_attendance_system
+A python GUI integrated attendance system using face recognition to take attendance.
 
-## [Watch it on YouTube](https://youtu.be/8uLI8ade1aA)
+In this python project, I have made an attendance system which takes attendance by using face recognition technique. I have also intergrated it with GUI (Graphical user interface) so it can be easy to use by anyone. GUI for this project is also made on python using tkinter.
 
-- [x] Responsive UI
-- [x] Fetch Data From API
-- [x] Custom Loading Indicator
+TECHNOLOGY USED:
+1) tkinter for whole GUI
+2) OpenCV for taking images and face recognition (cv2.face.LBPHFaceRecognizer_create())
+3) CSV, Numpy, Pandas, datetime etc. for other purposes.
 
-**Packages we are using:**
+FEATURES:
+1) Easy to use with interactive GUI support.
+2) Password protection for new person registration.
+3) Creates/Updates CSV file for deatils of students on registration.
+4) Creates a new CSV file everyday for attendance and marks attendance with proper date and time.
+5) Displays live attendance updates for the day on the main screen in tabular format with Id, name, date and time.
 
-- flutter_svg: [link](https://pub.dev/packages/flutter_svg)
-- goole_fonts: [link](https://pub.dev/packages/google_fonts)
+# SCREENSHOTS
+MAIN SCREEN:
+![Screenshot (9)](https://user-images.githubusercontent.com/37211676/58502148-97ec2a00-81a3-11e9-963e-674b9c3e05dc.png)
 
-We design a responsive furniture app UI using flutter, all of the data come from API so that you can learn how to use API on flutter. There are two pages Home page which contains a horizontal category list then the list of recommended products.
+TAKING ATTENDANCE:
+![Screenshot (10)](https://user-images.githubusercontent.com/37211676/58502149-97ec2a00-81a3-11e9-9658-8968da396c2e.png)
 
-### Furniture App Final UI
+SHOWING ATTENDANCE TAKEN:
+![Screenshot (11)](https://user-images.githubusercontent.com/37211676/58502151-9884c080-81a3-11e9-9a90-fec29940ee5a.png)
 
-![Preview](/Intro.gif)
+HELP OPTION IN MENUBAR:
+![Screenshot (12)](https://user-images.githubusercontent.com/37211676/58502152-991d5700-81a3-11e9-861a-9115526010c2.png)
 
-![App UI](/ui.png)
+CHANGE PASSWORD OPTION:
+![Screenshot (13)](https://user-images.githubusercontent.com/37211676/58502146-97539380-81a3-11e9-8536-0c68160ecc55.png)
